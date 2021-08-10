@@ -2,7 +2,7 @@
 QuTune max patches and abstractions using The QAC Toolkit and more.
 
 ## Installation
-Before starting make sure you have [Max](http://cycling74.com) installed, as well as [The QAC toolkit](http://quantumland.art).
+Before starting, make sure you have [Max](http://cycling74.com) installed, as well as [The QAC toolkit](http://quantumland.art).
 
 (2021-07) The QAC toolkit is currently in closed beta, so you must register [here](https://forms.gle/Nhzz9xK2oHr1r37DA), and accept the github invitation, in order to gain access [access](https://github.com/Quantumland-art/The-QAC-Toolkit). Follow the installation instructions you can find there.
 
