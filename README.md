@@ -1,8 +1,8 @@
-# The Quantum Computer Music Tutorial
-Max patches and abstractions using _The QAC Toolkit_ and more.
+# Intro to Quantum Computer Music
+Learning IBM Quantum Experience, Max, _The QAC Toolkit_, and more.
 
 ## Installation
-Before starting, make sure you have [Max](http://cycling74.com) installed, as well as [The QAC toolkit](http://quantumland.art/qac) Max package.
+Before starting, make sure you have [Max](http://cycling74.com) installed, as well as [The QAC toolkit](http://quantumland.art/qac) Max package. You will also need an account with [IBM Quantum Experience](quantum-computing.ibm.com).
 
 Clone or [download](https://github.com/iccmr-quantum/The-Quantum-Computer-Music-Tutorial/archive/refs/heads/main.zip) and unzip this repo.
 
