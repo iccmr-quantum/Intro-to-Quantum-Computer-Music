@@ -1,0 +1,3 @@
+[submodule "part_2/UDP-Qasm"]
+	path = part_2/UDP-Qasm
+	url = https://github.com/iccmr-quantum/OSC-Qasm
