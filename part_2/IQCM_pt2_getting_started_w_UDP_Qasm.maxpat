@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 104.0, 907.0, 417.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,108 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.0, 240.0, 88.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.0, 190.0, 195.0, 22.0 ],
+					"text" : "osc_qasm @backend ibmq_manila"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 9,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 690.0, 190.0, 140.0, 129.0 ],
+					"presentation_linecount" : 9,
+					"text" : "qasm \"OPENQASM 2.0;\ninclude \\\"qelib1.inc\\\"; \nqreg q[2]; \ncreg c[2]; \nh q[0]; \ncx q[0],q[1]; \nmeasure q[0] -> c[0]; \nmeasure q[1] -> c[1]; \n\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 722.0, 97.0, 23.0, 20.0 ],
+					"text" : "2 -"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 462.0, 97.0, 23.0, 20.0 ],
+					"text" : "1 -"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 747.0, 97.0, 83.0, 22.0 ],
+					"text" : "sim get_qasm"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.0, 97.0, 201.0, 22.0 ],
+					"text" : "qc h 0, qc cx 0 1, qc m 0 0, qc m 1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.0, 145.0, 273.0, 22.0 ],
+					"text" : "och.microqiskit qc 2 2 sim 1 1 @console_output 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 137.0, 270.0, 195.0, 22.0 ],
-					"text" : "osc_qasm @backend ibmq_manila"
+					"patching_rect" : [ 67.0, 240.0, 63.0, 22.0 ],
+					"text" : "osc_qasm"
 				}
 
 			}
@@ -57,19 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 370.0, 88.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 297.5, 63.0, 22.0 ],
-					"text" : "osc_qasm"
+					"patching_rect" : [ 67.0, 293.5, 88.0, 22.0 ]
 				}
 
 			}
@@ -80,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 175.0, 83.0, 22.0 ],
+					"patching_rect" : [ 347.0, 145.0, 83.0, 22.0 ],
 					"text" : "sim get_qasm"
 				}
 
@@ -93,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0, 270.0, 140.0, 129.0 ],
+					"patching_rect" : [ 290.0, 240.0, 140.0, 129.0 ],
 					"text" : "qasm \"OPENQASM 2.0;\ninclude \\\"qelib1.inc\\\"; \nqreg q[2]; \ncreg c[2]; \nh q[0]; \ncx q[0],q[1]; \nmeasure q[0] -> c[0]; \nmeasure q[1] -> c[1]; \n\""
 				}
 
@@ -104,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.0, 175.0, 23.0, 20.0 ],
+					"patching_rect" : [ 174.0, 145.0, 23.0, 20.0 ],
 					"text" : "3 -"
 				}
 
@@ -115,7 +198,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 127.0, 23.0, 20.0 ],
+					"patching_rect" : [ 122.0, 97.0, 23.0, 20.0 ],
 					"text" : "2 -"
 				}
 
@@ -126,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 75.0, 23.0, 20.0 ],
+					"patching_rect" : [ 42.0, 45.0, 23.0, 20.0 ],
 					"text" : "1 -"
 				}
 
@@ -138,7 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 244.0, 175.0, 125.0, 22.0 ],
+					"patching_rect" : [ 199.0, 145.0, 125.0, 22.0 ],
 					"text" : "sim get_qasm textbox"
 				}
 
@@ -150,7 +233,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 127.0, 97.0, 22.0 ],
+					"patching_rect" : [ 147.0, 97.0, 97.0, 22.0 ],
 					"text" : "Simulator sim qc"
 				}
 
@@ -162,7 +245,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 75.0, 327.0, 22.0 ],
+					"patching_rect" : [ 67.0, 45.0, 327.0, 22.0 ],
 					"text" : "QuantumCircuit qc 2 2, qc h 0, qc cx 0 1, qc m 0 0, qc m 1 1"
 				}
 
@@ -174,7 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 220.0, 88.0, 22.0 ],
+					"patching_rect" : [ 67.0, 190.0, 88.0, 22.0 ],
 					"text" : "och.microqiskit"
 				}
 
@@ -190,7 +273,37 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
-					"source" : [ "obj-17", 0 ]
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"order" : 0,
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -204,17 +317,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-20", 0 ],
+					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"order" : 1,
-					"source" : [ "obj-3", 0 ]
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
