@@ -4,7 +4,7 @@ Learning IBM Quantum Experience, Max, _The QAC Toolkit_, and more.
 ## Installation
 Before starting, make sure you have [Max](http://cycling74.com) installed, as well as [The QAC toolkit](http://quantumland.art/qac) Max package. You will also need an account with [IBM Quantum Experience](quantum-computing.ibm.com).
 
-Clone this repo. (Note: if you use the zip download function in github it will not include the [UDP_Qasm submodule](/part_2/), and you'll have to manually [download it](https://github.com/iccmr-quantum/OSC-Qasm/archive/refs/heads/main.zip) yourself)
+Clone this repo or [download](https://github.com/iccmr-quantum/Intro-to-Quantum-Computer-Music/releases/download/v1.0.0/Intro-to-Quantum-Computer-Music_.v1.0.0.zip) the release zip. (Note: if you use the zip download function in github it will not include the [UDP_Qasm submodule](/part_2/), and you'll have to manually [download it](https://github.com/iccmr-quantum/OSC-Qasm/archive/a6850fac656b44a59e0f26253627b736c959f8a4.zip) yourself)
 
 You're now ready to explore _Intro to Quantum Computer Music_!
 
@@ -16,4 +16,4 @@ Also, please consider learning more about Max [here](https://cycling74.com/get-s
 Thank you for taking the time to interact with this tutorial. And you are welcome to suggest contributions.
 
 ## Acknowledgements
-This repo was created by Omar Costa Hamido as part of the [QuTune Project](https://iccmr-quantum.github.io/).
+This repo was created by [Omar Costa Hamido](https://omarcostahamido.com) as part of the [QuTune Project](https://iccmr-quantum.github.io/).
