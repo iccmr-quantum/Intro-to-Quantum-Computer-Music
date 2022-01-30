@@ -1,4 +1,5 @@
 # IQCM pt1
+(watch the recording from ISQCMC [here](https://www.youtube.com/watch?v=-vq_bELlhrI))
 
 - [IBM Quantum Experience](https://quantum-computing.ibm.com)
 - [Qiskit](https://qiskit.org)
