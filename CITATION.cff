@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Costa Hamido"
+  given-names: "Omar"
+  orcid: "https://orcid.org/0000-0001-5077-853X"
+title: "Intro to Quantum Computer Music"
+# version: 1.0.0
+# doi: 10.5281/zenodo.1234
+date-released: 2021-11-19
+url: "https://github.com/Quantumland-art/Intro-to-Quantum-Computer-Music"
