@@ -1,3 +1,6 @@
 [submodule "part_2/UDP-Qasm"]
 	path = part_2/UDP-Qasm
 	url = https://github.com/iccmr-quantum/OSC-Qasm
+[submodule "part_3/QAC-book-chapter-supplementary-materials"]
+	path = part_3/QAC-book-chapter-supplementary-materials
+	url = https://github.com/Quantumland-art/QAC-book-chapter-supplementary-materials
